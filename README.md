@@ -5,7 +5,7 @@
 1. Open Docker
 2. Execute `./run.sh`
 3. Splunk will be accessible on `127.0.0.1:8000` in browser
-4. Log in with U: **"admin"**, P: **"splunkdev"**
+4. Log in with U: `admin`, P: `splunkdev`
 
 ***Apple Sillicon***
 1. Open Docker
