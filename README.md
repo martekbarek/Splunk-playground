@@ -1,6 +1,6 @@
 # Splunk playground
 
-## Building project
+## Build project
 
 1. Open Docker
 2. Execute `./run.sh`
