@@ -1,0 +1,13 @@
+services:
+  splunk:
+    container_name: splunk
+    build: ./splunk_image
+    ports:
+      - 8000:8000
+    environment:
+    - SPLUNK_PASSWORD=splunkdev
+    - SPLUNK_START_ARGS=--accept-license
+    platform: linux/amd64
+    volumes:
+    - ./apps:/opt/splunk/etc/apps/
+    tty: true
