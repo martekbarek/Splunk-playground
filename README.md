@@ -1,12 +1,13 @@
 # Splunk playground
 
-## Building project:
+## Building project
 
-1. Execute `./run.sh`
-2. Splunk will be accessible on `127.0.0.1:8000` in browser
-3. Log in with U: **"admin"**, P: **"splunkdev"**
+1. Open Docker
+2. Execute `./run.sh`
+3. Splunk will be accessible on `127.0.0.1:8000` in browser
+4. Log in with U: **"admin"**, P: **"splunkdev"**
 
-***Apple Sillicon:***
+***Apple Sillicon***
 1. Open Docker
 2. Install rosetta emulation
 3. Enable in Docker Desktop **"Use rosetta for x86/amd64 emulation on Apple Silicon"**
@@ -16,8 +17,10 @@
 
 ## Upload test data
 
-***tutorialdata.zip***
-`Setting > Add Data > Upload`
+1. Go to `Setting > Add Data > Upload` in Splunk GUI
+2. Choose ***test_data/tutorialdata.zip***
+
+***Documentation:***
 https://docs.splunk.com/Documentation/Splunk/9.0.4/SearchTutorial/GetthetutorialdataintoSplunk
 
 ## Apply configurations
