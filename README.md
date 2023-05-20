@@ -1,5 +1,9 @@
 # Splunk playground
 
+This is an Splunk instance deployed on docker to test your configs and learn about Splunk environment locally.
+
+<br></br>
+
 ## Build project
 
 >Requirements: docker, docker compose
